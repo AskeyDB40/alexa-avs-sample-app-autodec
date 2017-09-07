@@ -1,0 +1,22 @@
+{
+    "productId":"my_device",
+    "dsn":"123456",
+    "provisioningMethod":"companionService",
+    "wakeWordAgentEnabled":false,
+    "headless":false,
+    "locale":"en-US",
+    "avsHost":"https://avs-alexa-na.amazon.com",
+    "companionApp":{
+        "localPort":8443,
+        "lwaUrl":"https://api.amazon.com",
+        "sslKeyStore":"E:\\Alexa\\sample\\samples\\javaclient\\certs\\server\\jetty.pkcs12",
+        "sslKeyStorePassphrase":"1"
+    },
+    "companionService":{
+        "serviceUrl":"https://localhost:3000",
+        "sslClientKeyStore":"E:\\Alexa\\sample\\samples\\javaclient\\certs\\client\\client.pkcs12",
+        "sslClientKeyStorePassphrase":"1",
+        "sslCaCert":"E:\\Alexa\\sample\\samples\\javaclient\\certs\\ca\\ca.crt",
+        "sessionId":"de0b6abf-f2c3-45fd-85c5-b7e7a84207f2"
+    }
+}
